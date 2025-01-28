@@ -1,0 +1,24 @@
+{
+    "name": "@panda-codes/grouplog",
+    "version": "0.1.0",
+    "description": "A debounced group logger; only writes to console.log after more than a designated amount of time has passed since the last call.",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SixFingerPaws/GroupLog.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/SixFingerPaws/GroupLog/issues"
+    },
+    "homepage": "https://github.com/SixFingerPaws/GroupLog#readme",
+    "devDependencies": {
+        "typescript": "^5.7.3"
+    },
+    "files": ["dist/**/*"]
+}
